@@ -24,6 +24,38 @@
 
 ## Description
 
+# Product API
+
+A simple REST API for managing products using NestJS.
+
+## Endpoints
+### Create Product
+- **POST** `/products`
+- Request body: `CreateProductDto`
+
+### Get All Products
+- **GET** `/products`
+
+### Get Product by ID
+- **GET** `/products/:id`
+
+### Update Product
+- **PUT** `/products/:id`
+- Request body: `UpdateProductDto`
+
+### Delete Product
+- **DELETE** `/products/:id`
+
+### Search Products
+- **GET** `/products?search=keyword`
+
+## Validation
+
+DTOs are used for validation with class-validator.
+
+# Testing 
+For test the API's or ENd points use postman 
+
 
 
 ## Project setup
